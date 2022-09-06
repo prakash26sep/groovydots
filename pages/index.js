@@ -12,6 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Groovy Dots!</h1>
+        <h1 className={styles.title}>Coming soon</h1>
       </main>
     </div>
   );
