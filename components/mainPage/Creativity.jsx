@@ -1,5 +1,5 @@
-import React from 'react';
-import styles from './creativityStyles';
+import React from "react";
+import styles from "./creativityStyles";
 
 export default function Creative() {
   const classes = styles();
@@ -7,16 +7,16 @@ export default function Creative() {
     <>
       <div
         style={{
-          width: '100vw',
-          display: 'flex',
-          flexDirection: 'column',
+          width: "100vw",
+          display: "flex",
+          flexDirection: "column",
         }}
       >
         <div className={classes.container}>
           <div className={classes.innerContainer}>
             <h1 className={classes.headingContainer}>
-              "Creativity is allowing yourself to make mistakes Art is knowing
-              which ones to keep"
+              &quot;Creativity is allowing yourself to make mistakes Art is
+              knowing which ones to keep&quot;
             </h1>
             <p className={classes.authorName}>~Richard Johnson~</p>
           </div>

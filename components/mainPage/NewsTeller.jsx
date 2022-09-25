@@ -93,7 +93,11 @@ export default function NewsTeller() {
               style={{ width: "70%", margin: "0 auto", padding: "100px 20px" }}
             >
               <div style={{ marginBottom: "70px" }}>
-                <a href="https://twitter.com/Photoshop" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://twitter.com/Photoshop"
+                  target="_blank"
+                >
                   <Image
                     src="/twitter_white_big.png"
                     alt=""

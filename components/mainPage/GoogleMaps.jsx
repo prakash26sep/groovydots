@@ -17,12 +17,21 @@ export default function GoogleMaps() {
         </div>
         <div className={classes.container}>
           <div className={classes.socialMediaContainer}>
-            <Image className={classes.socialImageContainer} src="google.png" />
             <Image
+              alt="google"
+              className={classes.socialImageContainer}
+              src="google.png"
+            />
+            <Image
+              alt="fb"
               className={classes.socialImageContainer}
               src="facebook.png"
             />
-            <Image className={classes.socialImageContainer} src="twitter.png" />
+            <Image
+              alt="twitter"
+              className={classes.socialImageContainer}
+              src="twitter.png"
+            />
           </div>
           <p className={classes.authorName}>
             2013 © newave. All rights reserved.

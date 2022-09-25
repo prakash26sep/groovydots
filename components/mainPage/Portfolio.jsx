@@ -12,9 +12,9 @@ export default function Portfolio() {
             <h1>PORTFOLIO</h1>
             <span className={classes.border}></span>
             <p className={classes.paraText}>
-              We help build products from idea to launch. We're experts at web &
-              mobile design, branding, iOS development & frontend. Here's some
-              of our work.
+              We help build products from idea to launch. We are experts at web
+              & mobile design, branding, iOS development & frontend. Here is
+              some of our work.
             </p>
           </div>
         </div>

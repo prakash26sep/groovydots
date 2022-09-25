@@ -20,6 +20,7 @@ export default function Technology() {
           <div className={classes.templateContainer}>
             <div className={classes.templateInnerContainer}>
               <Image
+                alt="user"
                 className={classes.imageContainer}
                 src="/user-profile.png"
               />
@@ -31,6 +32,7 @@ export default function Technology() {
             </div>
             <div className={classes.templateInnerContainer}>
               <Image
+                alt="profile"
                 className={classes.imageContainer}
                 src="/user-profile.png"
               />
@@ -42,6 +44,7 @@ export default function Technology() {
             </div>
             <div className={classes.templateInnerContainer}>
               <Image
+                alt="profile"
                 className={classes.imageContainer}
                 src="/user-profile.png"
               />
@@ -53,6 +56,7 @@ export default function Technology() {
             </div>
             <div className={classes.templateInnerContainer}>
               <Image
+                alt="user"
                 className={classes.imageContainer}
                 src="/user-profile.png"
               />

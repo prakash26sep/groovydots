@@ -17,14 +17,30 @@ export default function Clients() {
             </p>
           </div>
           <div className={classes.imageContainer}>
-            <Image className={classes.imageStyle} src="/client1.png" />
-            <Image className={classes.imageStyle} src="/client2.png" />
-            <Image className={classes.imageStyle} src="/client3.png" />
-            <Image className={classes.imageStyle} src="/client4.png" />
+            <Image
+              className={classes.imageStyle}
+              alt="client"
+              src="/client1.png"
+            />
+            <Image
+              className={classes.imageStyle}
+              alt="client"
+              src="/client2.png"
+            />
+            <Image
+              className={classes.imageStyle}
+              alt="client"
+              src="/client3.png"
+            />
+            <Image
+              className={classes.imageStyle}
+              alt="client"
+              src="/client4.png"
+            />
           </div>
           <div className={classes.thanksHeading}>
-            "THANK YOU FOR YOUR AWESOME TEMPLATE. SUCH A JOY TO LAUNCH OUR FIRST
-            WEBSITE WITH EASE. GOOD JOB"
+            &quot;THANK YOU FOR YOUR AWESOME TEMPLATE. SUCH A JOY TO LAUNCH OUR
+            FIRST WEBSITE WITH EASE. GOOD JOB&quot;
           </div>
           <p className={classes.authorName}>~ Fred nolan.</p>
         </div>
