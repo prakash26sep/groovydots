@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./servicesStyles";
 
@@ -51,7 +52,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",
@@ -97,7 +98,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",
@@ -143,7 +144,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",
@@ -174,7 +175,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",
@@ -204,7 +205,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",
@@ -235,7 +236,7 @@ export default function Services() {
                     marginTop: "12px",
                   }}
                 >
-                  <img
+                  <Image
                     style={{
                       height: "40px",
                       width: "40px",

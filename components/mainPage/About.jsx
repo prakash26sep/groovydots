@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import styles from "./aboutStyles";
 import DrawerComponent from "./DrawerComponent";
@@ -77,21 +78,21 @@ export default function About() {
             </div>
             <div className={classes.screens}>
               <div className={classes.smallScreenLeft}>
-                <img
+                <Image
                   className={classes.elementFromLeft}
                   src="/small_left_screen.png"
                   alt=""
                 />
               </div>
               <div className={classes.smallScreenRight}>
-                <img
+                <Image
                   className={classes.elementFromRight}
                   src="/small_right_screen.png"
                   alt=""
                 />
               </div>
               <div className={classes.bigScreen}>
-                <img
+                <Image
                   className={classes.elementFadeIn}
                   src="/big_screen.png"
                   alt=""

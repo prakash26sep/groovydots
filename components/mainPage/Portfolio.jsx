@@ -1,11 +1,12 @@
-import React from 'react';
-import styles from './portfolioStyles';
+import Image from "next/image";
+import React from "react";
+import styles from "./portfolioStyles";
 
 export default function Portfolio() {
   const classes = styles();
   return (
     <>
-      <div style={{ width: '100vw' }}>
+      <div style={{ width: "100vw" }}>
         <div className={classes.container}>
           <div className={classes.sectionTitle}>
             <h1>PORTFOLIO</h1>
@@ -26,10 +27,10 @@ export default function Portfolio() {
           <div className={classes.menuItem}>WEB</div>
         </div>
         <div className={classes.imageContainer}>
-          <img className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <img className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <img className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <img className={classes.imageStyle} src="/abcd.jpg" alt="image" />
+          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
+          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
+          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
+          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
         </div>
         <div className={classes.contactUsContainer}>
           <h4 className={classes.contactUsHeading}>

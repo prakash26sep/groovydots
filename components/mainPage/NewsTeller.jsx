@@ -1,5 +1,6 @@
 import React from "react";
 import { useTheme } from "@mui/material";
+import Image from "next/image";
 
 export default function NewsTeller() {
   const theme = useTheme();
@@ -93,7 +94,7 @@ export default function NewsTeller() {
             >
               <div style={{ marginBottom: "70px" }}>
                 <a href="https://twitter.com/Photoshop" target="_blank">
-                  <img
+                  <Image
                     src="/twitter_white_big.png"
                     alt=""
                     style={{ width: "70px", height: "70px" }}

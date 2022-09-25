@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "./teamDescStyles";
 
@@ -18,7 +19,7 @@ export default function TeamDesc() {
           <div className={classes.avatarContainer}>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <img src="./team1.png" alt="team1" />
+              <Image src="./team1.png" alt="team1" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 MICHEAL BROAD
               </span>
@@ -26,7 +27,7 @@ export default function TeamDesc() {
             </div>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <img src="./team2.png" alt="team1" />
+              <Image src="./team2.png" alt="team1" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 AMANDA WHITE
               </span>
@@ -34,7 +35,7 @@ export default function TeamDesc() {
             </div>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <img src="./team3.png" alt="team1" />
+              <Image src="./team3.png" alt="team1" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 BRAD TRAVERSY
               </span>
