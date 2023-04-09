@@ -102,6 +102,7 @@ export default function NewsTeller() {
                     src="/twitter_white_big.png"
                     alt=""
                     style={{ width: "70px", height: "70px" }}
+                    layout="fill"
                   />
                 </a>
                 <p style={{ opacity: 0.5, color: "#fff" }}>@envato</p>

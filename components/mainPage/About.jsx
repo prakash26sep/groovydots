@@ -82,6 +82,7 @@ export default function About() {
                   className={classes.elementFromLeft}
                   src="/small_left_screen.png"
                   alt=""
+                  layout="fill"
                 />
               </div>
               <div className={classes.smallScreenRight}>
@@ -89,6 +90,7 @@ export default function About() {
                   className={classes.elementFromRight}
                   src="/small_right_screen.png"
                   alt=""
+                  layout="fill"
                 />
               </div>
               <div className={classes.bigScreen}>
@@ -96,6 +98,7 @@ export default function About() {
                   className={classes.elementFadeIn}
                   src="/big_screen.png"
                   alt=""
+                  layout="fill"
                 />
               </div>
             </div>

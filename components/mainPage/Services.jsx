@@ -59,6 +59,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
               </div>
@@ -105,6 +106,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
               </div>
@@ -151,6 +153,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
               </div>
@@ -182,6 +185,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
@@ -212,6 +216,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
@@ -243,6 +248,7 @@ export default function Services() {
                     }}
                     src="/user-profile.png"
                     alt="image"
+                    layout="fill"
                   />
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>

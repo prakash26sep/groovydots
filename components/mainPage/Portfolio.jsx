@@ -27,10 +27,30 @@ export default function Portfolio() {
           <div className={classes.menuItem}>WEB</div>
         </div>
         <div className={classes.imageContainer}>
-          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
-          <Image className={classes.imageStyle} src="/abcd.jpg" alt="image" />
+          <Image
+            className={classes.imageStyle}
+            src="/abcd.jpg"
+            alt="image"
+            layout="fill"
+          />
+          <Image
+            className={classes.imageStyle}
+            src="/abcd.jpg"
+            alt="image"
+            layout="fill"
+          />
+          <Image
+            className={classes.imageStyle}
+            src="/abcd.jpg"
+            alt="image"
+            layout="fill"
+          />
+          <Image
+            className={classes.imageStyle}
+            src="/abcd.jpg"
+            alt="image"
+            layout="fill"
+          />
         </div>
         <div className={classes.contactUsContainer}>
           <h4 className={classes.contactUsHeading}>

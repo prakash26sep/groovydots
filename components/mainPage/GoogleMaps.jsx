@@ -11,8 +11,9 @@ export default function GoogleMaps() {
         <div className={classes.imageContainer}>
           <Image
             style={{ height: "100%", width: "100%" }}
-            src="google_maps.png"
+            src="/google_maps.png"
             alt="googleImage"
+            layout="fill"
           />
         </div>
         <div className={classes.container}>
@@ -20,17 +21,20 @@ export default function GoogleMaps() {
             <Image
               alt="google"
               className={classes.socialImageContainer}
-              src="google.png"
+              src="/google.png"
+              layout="fill"
             />
             <Image
               alt="fb"
               className={classes.socialImageContainer}
-              src="facebook.png"
+              src="/facebook.png"
+              layout="fill"
             />
             <Image
               alt="twitter"
               className={classes.socialImageContainer}
-              src="twitter.png"
+              src="/twitter.png"
+              layout="fill"
             />
           </div>
           <p className={classes.authorName}>

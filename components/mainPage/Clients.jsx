@@ -21,21 +21,25 @@ export default function Clients() {
               className={classes.imageStyle}
               alt="client"
               src="/client1.png"
+              layout="fill"
             />
             <Image
               className={classes.imageStyle}
               alt="client"
               src="/client2.png"
+              layout="fill"
             />
             <Image
               className={classes.imageStyle}
               alt="client"
               src="/client3.png"
+              layout="fill"
             />
             <Image
               className={classes.imageStyle}
               alt="client"
               src="/client4.png"
+              layout="fill"
             />
           </div>
           <div className={classes.thanksHeading}>

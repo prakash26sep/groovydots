@@ -19,7 +19,7 @@ export default function TeamDesc() {
           <div className={classes.avatarContainer}>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <Image src="./team1.png" alt="team1" />
+              <Image src="/team1.png" alt="team1" layout="fill" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 MICHEAL BROAD
               </span>
@@ -27,7 +27,7 @@ export default function TeamDesc() {
             </div>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <Image src="./team2.png" alt="team1" />
+              <Image src="/team2.png" alt="team1" layout="fill" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 AMANDA WHITE
               </span>
@@ -35,7 +35,7 @@ export default function TeamDesc() {
             </div>
             <div className={classes.imageContainer}>
               <div style={{ borderRadius: "3px", position: "relative" }}></div>
-              <Image src="./team3.png" alt="team1" />
+              <Image src="/team3.png" alt="team1" layout="fill" />
               <span style={{ color: "#222222", marginTop: "10px" }}>
                 BRAD TRAVERSY
               </span>

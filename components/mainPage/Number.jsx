@@ -13,6 +13,7 @@ export default function Number() {
               className={classes.imageContainer}
               src="/phone.png"
               alt="phone_image"
+              layout="fill"
             />
             <h1 className={classes.numberContainer}>0753-016-572</h1>
             <div className={classes.imageTextContainer}>
@@ -20,6 +21,7 @@ export default function Number() {
                 style={{ width: "30px", height: "30px" }}
                 src="/gmail.png"
                 alt="user image"
+                layout="fill"
               />
               <p className={classes.authorName}>office@newave.com</p>
             </div>
@@ -28,6 +30,7 @@ export default function Number() {
                 style={{ width: "30px", height: "30px" }}
                 src="/gmail.png"
                 alt="location image"
+                layout="fill"
               />
               <p className={classes.authorName}>
                 77a First Street, London, United Kingdom

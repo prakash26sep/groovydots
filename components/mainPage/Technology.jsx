@@ -23,6 +23,7 @@ export default function Technology() {
                 alt="user"
                 className={classes.imageContainer}
                 src="/user-profile.png"
+                layout="fill"
               />
               <h5>CONSULTATION</h5>
               <p className={classes.textContent}>
@@ -35,6 +36,7 @@ export default function Technology() {
                 alt="profile"
                 className={classes.imageContainer}
                 src="/user-profile.png"
+                layout="fill"
               />
               <h5>DESIGN</h5>
               <p className={classes.textContent}>
@@ -47,6 +49,7 @@ export default function Technology() {
                 alt="profile"
                 className={classes.imageContainer}
                 src="/user-profile.png"
+                layout="fill"
               />
               <h5>USER EXPERIENCE</h5>
               <p className={classes.textContent}>
@@ -59,6 +62,7 @@ export default function Technology() {
                 alt="user"
                 className={classes.imageContainer}
                 src="/user-profile.png"
+                layout="fill"
               />
               <h5>DEVELOPMENT</h5>
               <p className={classes.textContent}>
