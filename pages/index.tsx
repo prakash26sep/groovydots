@@ -18,6 +18,7 @@ export default function Home() {
           alignItems: "center",
         }}
       >
+        <h2 style={{fontSize: "30px", color: "#bd9a1f", fontFamily:  "math"}}>Coming soon</h2>
         <img src="/groovy-dots.gif" />
         {/* <Typography variant="h4" component="h1" gutterBottom>
           Material UI - Next.js example in TypeScript
